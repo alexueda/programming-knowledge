@@ -1,0 +1,2 @@
+# programming-knowledge
+コンピュータサイエンスの学習をする過程で学んだ知識を記録
