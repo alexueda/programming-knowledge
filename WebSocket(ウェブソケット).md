@@ -7,11 +7,15 @@ HTTPはクライアント-サーバーアーキテクチャに基づいていま
 
 最終的に2011年、通信プロトコルであるWebSocketがこの問題を解決するために作られました。WebSocketの核心機能は、完全な双方向通信が可能である点です。つまり、クライアントが通常のHTTPを使用して最初の接続を確立し、その後サーバーがWebSocket接続にアップグレードすると、関係がピアツーピア接続に変わり、どちらの当事者もいつでも効率的にデータを送信できます。
 
+![サンプル画像](https://github.com/alexueda/programming-knowledge/blob/main/picture_folder/webServicesWebSocketPeers.jpg)
+
 ## WebSocketアップグレード
 
 WebSocket接続は依然として2者間のみです。そのため、ユーザーグループ間での会話を促進したい場合は、サーバーが仲介役として機能する必要があります。それぞれのピアが最初にサーバーに接続し、その後サーバーがピア間のメッセージを転送します。
 
 ## WebSocketピア
+
+![サンプル画像](https://github.com/alexueda/programming-knowledge/blob/main/picture_folder/webServicesWebSocketUpgrade.jpg)
 
 ### WebSocket会話の作成
 
