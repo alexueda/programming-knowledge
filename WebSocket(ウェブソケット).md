@@ -1,4 +1,3 @@
-+++
 # WebSocket
 ## WebSocketについて
 
@@ -50,6 +49,3 @@ wss.on('connection', (ws) => {
   ws.send('Hello webSocket');
 });
 ```
-
-次回の指示では、この例を実行およびデバッグする方法を示します。
-+++
